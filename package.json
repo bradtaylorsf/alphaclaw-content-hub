@@ -1,0 +1,24 @@
+{
+  "name": "alphaclaw-content-hub",
+  "version": "2.1.0",
+  "description": "AlphaClaw Enterprise Content Hub with Contentful integration",
+  "main": "api.js",
+  "type": "module",
+  "scripts": {
+    "sync": "node contentful-sync.js",
+    "sync:dry-run": "node contentful-sync.js --dry-run",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "dependencies": {
+    "contentful-management": "^11.0.0"
+  },
+  "keywords": [
+    "contentful",
+    "cms",
+    "content-management",
+    "alphaclaw",
+    "enterprise"
+  ],
+  "author": "Alpha the Wolf",
+  "license": "MIT"
+}
